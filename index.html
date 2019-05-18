@@ -10,6 +10,6 @@
     <label for="userInput">Bloqify something</label>
     <br>
     <input type="text" id="userInput">
-    <button onclick="bloq(document.getElementById('userInput').value)">Bloq</button>
+    <button onclick="let data = document.getElementById('userInput'); bloq(data.value); data.value = ''">Bloq</button>
 </body>
 </html>

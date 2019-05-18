@@ -4,4 +4,5 @@
 
 Convert text into Discord emojis (when possible).
 
-Automatically copies the result to your clipboard.
+On clicking the button, the converted text will be copied to your clipboard.
+The input box will also be cleared.
