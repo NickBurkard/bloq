@@ -7,7 +7,10 @@
     <script type="application/javascript" src="bloq.js"></script>
 </head>
 <body>
-    <label for="userInput">Bloqify something</label>
+    <h1>
+        <a href="https://github.com/NickBurkard/bloq">Bloq</a>
+    </h1>
+    <label for="userInput">Bloqify some text into your clipboard</label>
     <br>
     <input type="text" id="userInput">
     <button onclick="let data = document.getElementById('userInput'); bloq(data.value); data.value = ''">Bloq</button>
