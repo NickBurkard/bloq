@@ -41,6 +41,7 @@ function bloq(text) {
     }
 
     let result = text
+        .toLowerCase()
         .split('')
         .map(to_indicator)
         .reduce(concat);
